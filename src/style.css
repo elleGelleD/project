@@ -1,0 +1,845 @@
+/*
+Color Palette: Follow the Sun
+Ebony: #22262A
+Yellow: #FEDA15
+Forest Green: #19342D
+Misty Blue: #BFD0DA
+*/
+    *   {
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Poppins;
+    }
+    #body {
+        margin: 0 auto;
+    }
+    /*HOMEPAGE*/
+    #home {
+        height: 590px;
+    }
+
+    #main-nav {
+    width: 100%;
+    height: 70px;
+    background-color: #19342D;
+    line-height: 70px;
+    position: fixed;
+    top: 0; 
+    z-index: 10; 
+    }
+
+    #main-nav ul {
+    float: right; 
+    margin-right: 20px;
+    }
+      
+    #main-nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    transition: 0.8s all;
+    }
+      
+    #main-nav ul li :hover{
+    background-color: #ffd814;
+    height: 60px;
+    }
+      
+    #main-nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 30px;
+    }
+    
+    .logo {
+    width: 70px;
+    margin: 30px 0;
+    position:absolute;
+    left: 70px;
+    top: -28px;
+    }
+    
+    .homepage_bg {
+    width: 570px;
+    margin: 60px 70px;
+    }
+
+    
+    .line {
+    width: 290px;
+    position: absolute;
+    top: 104px;
+    left: 870px;
+    }
+      
+    .lilisportfolio_bg{
+    width: 650px;
+    margin: 15px 100px;
+    position: absolute;
+    left: 470px;
+    top: 130px;
+    }
+
+    #main p {
+    color: #000; 
+    font-size: 16px; 
+    margin: 20px 100px;
+    position: absolute;
+    left: 560px;
+    top: 400px;
+    text-align: center;
+    }
+
+    #button a {
+    border-radius: 5px; 
+    text-decoration: none; 
+    padding: 10px 18px;
+    transition: background-color 0.3s ease, transform 0.3s ease; 
+    }
+      
+    #button a:hover {
+    background-color: black;
+    color: white;
+    transform: scale(1.05); 
+    }
+      
+    #button .get-to-know-me-btn {
+    background: #ffd814; 
+    color: #000;
+    position: absolute;
+    left: 670px; 
+    top: 490px; 
+    }
+
+    #socmed-links {
+    display: flex;
+    flex-direction: row-reverse;
+    position: absolute;
+    top: 1430px;
+    left: 570px;
+    }
+      
+    .gmail-icon, .linkedin-icon, .instagram-icon, .facebook-icon {
+    width: 100px;
+    margin:  0px -20px;
+    }
+
+    #home-nav {
+        display: none;
+    }
+
+    #about {
+    background-color:#fff;
+    height: 600px;
+    }
+
+    .skills {
+        width: 700px;
+        position: absolute;
+        top: 560px;
+        left: 550px;
+    }
+
+    .about-me {
+        width: 500px;
+        position: absolute;
+        top: 547px;
+        margin: 0px 30px;
+    }
+
+    #portfolio {
+        height: 640px;
+    }
+
+    .portfolio {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 500px;
+        position: relative;
+        top: -100px;
+      }
+
+    #boxes {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        position: relative;
+        top: -350px;
+    }
+
+    .portfolio-box3, .portfolio-box2, .portfolio-box1 {
+        width: 500px;
+        margin:  0px -50px;
+    }
+    
+    
+    #portraits {
+        background-color: white;
+        height: 640px;
+    }
+
+    .portraits {
+        width: 500px;
+        position: absolute;
+        top: 1650px;
+        margin: 0px 30px;
+    }
+    
+    .shape {
+        width: 650px;
+        position: absolute;
+        top: 1570px;
+        left: 580px;
+    }
+
+    #portrait-boxes {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        position: relative;
+        top: 130px;
+    }
+
+    .portrait-box3, .portrait-box2, .portrait-box1 {
+        width: 500px;
+        margin:  0px -50px;
+    }
+
+    #randoms {
+        background-color: white;
+        height: 660px;
+    }
+
+    .randoms {
+        width: 500px;
+        position: absolute;
+        top: 2300px;
+        left: 720px;
+        margin: 0px 30px;
+    }
+
+    .shape-2 {
+        width: 650px;
+        position: absolute;
+        top: 2215px;
+        left: 35px;
+    }
+    
+    #randoms-boxes {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        position: relative;
+        top: 150px;
+    }
+
+    .random-box3, .random-box2, .random-box1 {
+        width: 500px;
+        margin:  0px -50px;
+    }
+
+    #videography {
+        background-color: white;
+        height: 610px;
+    }
+
+    .videoshots {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 500px;
+        position: relative;
+        top: -130px;
+    }
+
+    .video-box {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 1000px;
+        height: 800px;
+        position: relative;
+        top: -550px;
+    }
+
+    .video-shotsv2{
+        display: none;
+    }
+
+    #lay-outs {
+        background-color: white;
+        height: 1100px;
+    }
+
+    .recentlys {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 600px;
+        position: relative;
+        top: -170px;
+    }
+
+    .recent-layouts1{
+        width: 800px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        top: -460px;
+    }
+
+    .recent-layouts2{
+        width: 800px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        top: -380px;
+    }
+
+    .recentlayoutsv2{
+        display: none;
+    }
+
+    #quote {
+        background-color: white;
+        height: 580px;
+    }
+
+    .quote {
+        width:900px;
+        height: 600px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        top: -70px;
+    }
+    
+    #quote p {
+        font-size: 40px;
+        display: flex;
+        position: absolute;
+        top: 5250px;
+        left: 350px;
+    }
+
+    #contact {
+        background-color: white;
+        height: 640px;
+    }
+
+
+    .get-in-touch {
+        width: 500px;
+        position: absolute;
+        top: 5320px;
+        margin: 0px 30px;
+    }
+
+
+    .contactshape {
+        height: 640px;
+        width: 620px;
+        background-color: #ffd814;
+        position: absolute;
+        left: 650px;
+
+    }
+
+    #contact p {
+        font-size: 20px;
+        display: flex;
+        position: absolute;
+        width: 500px;
+        top: 5590px;
+        left: -30px;
+        text-align: left;
+    }
+
+    #details .address, #details .mail, #details .phonenum {
+        display: flex;
+        position: relative;
+        top: 300px;
+        left: 20px;
+    }
+
+    #contact-icons .address, #contact-icons .email, #contact-icons .phone {
+        width: 50px;
+        display: flex;
+        flex-direction: row-reverse;
+        position: relative;
+        top: 140px;
+        left: 60px;
+    }
+
+    .connectwithme {
+        width: 380px;
+        display: flex;
+        position: absolute;
+        top: 5700px;
+        left: 300px ;
+    }
+
+    #connectwithme-links {
+        display: flex;
+        flex-direction: row-reverse;
+        position: absolute;
+        top: 5930px;
+        left: 370px;
+        }
+          
+        .gmail-icon, .linkedin-icon, .instagram-icon, .facebook-icon {
+        width: 80px;
+        transition: transform 0.3s ease; 
+        }
+          
+        .gmail-icon:hover, .linkedin-icon:hover, .instagram-icon:hover, .facebook-icon:hover {
+        transform: scale(1.1); 
+        border: #000;
+        border-style: dashed;
+        }
+
+        .rounded-square {
+            background-color: #19342D;
+            width: 170px;
+            height: 150px;
+            border-radius: 10%;
+            position: relative;
+            top: 140px;
+            left: 70px;
+            z-index: 1;
+        }
+
+        .forfooter {
+            width: 170px;
+            position: relative;
+            top: -20px;
+            left: 50px;
+            z-index: 2;
+        }
+    
+    @media (max-width: 1243px) {
+
+    #home {
+    height:2000px;
+    }
+
+    #main-nav ul {
+    display: none;
+    }
+        
+        
+    .homepage_bg {
+    width: 1000px;
+    margin: 20px 120px;
+    display: flex;
+    position: absolute;
+    }
+
+    .lilisportfolio_bg{
+    width: 1200px;
+    margin: 15px 0px;
+    display: flex;
+    position: absolute;
+    left: 30px;
+    top: 840px;
+    }
+            
+    .line {
+    width: 500px;
+    display: flex;
+    position: absolute;
+    top: 790px;
+    left: 600px;
+    }
+
+    #main p {
+    width: 1000px;
+    font-size: 32px; 
+    display: flex;
+    position: absolute;
+    left: 30px;
+    top: 1320px;
+    }
+        
+    #button a {
+    width: 340px ;
+    height: 100px;
+    padding: 30px 60px 10px 40px;
+    font-size: 30px;
+    }
+
+    #button .get-to-know-me-btn {
+    display: flex;
+    left: 140px; 
+    top: 1460px; 
+    }
+    
+    #socmed-links {
+        display: flex;
+        flex-direction: row-reverse;
+        position: absolute;
+        top: 1410px;
+        left: 520px;
+        }
+          
+        .gmail-icon, .linkedin-icon, .instagram-icon, .facebook-icon {
+        width: 50px;
+        margin:  0px -20px;
+        }
+
+    #home-nav {
+    display: flex;
+    position: relative; 
+    flex-direction: column; 
+    }
+
+    #home-nav a {
+    text-decoration: none;
+    color: #000;
+    font-size: 32px;
+    position: relative;
+    left: -60px;
+    }
+
+    #home-nav .home, #home-nav .about, #home-nav .portfolio, #home-nav .contact {
+        display: flex;
+        position: absolute;
+        top: 80px;
+        left: 270px;
+    }
+
+    #home-nav .home {top: 1620px;}
+    #home-nav .about {top: 1720px;}
+    #home-nav .portfolio {top: 1820px;}
+    #home-nav .contact {top: 1920px;}
+
+    #home-nav .home::after,
+    #home-nav .about::after,
+    #home-nav .portfolio::after,
+    #home-nav .contact::after {
+    content: '';
+    position: absolute;
+    width: 900px;
+    height: 1px; 
+    background-color: #000; 
+    bottom: -5px;
+    left: -90px;
+    }
+
+    #about {
+        height: 1550px;
+        background-color: white;
+    }
+
+    .skills {
+    width: 1000px;
+    display: flex;
+    position: absolute;
+    top: 2500px;
+    left: 230px;
+    }
+
+    .about-me {
+    width: 900px;
+    display: flex;
+    position: absolute;
+    top: 1800px;
+    margin: 0px 30px;
+    }
+
+    #portfolio {
+        background-color: white;
+        height: 3000px;
+    }
+    .portfolio {
+        display: flex;
+        width: 900px;
+        position: relative;
+        top: -220px;
+        left: 150px;
+      }
+
+    #boxes {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        position: relative;
+        top: -590px;
+        left: 200px;
+    }
+
+    .portfolio-box3, .portfolio-box2, .portfolio-box1 {
+        width: 1000px;
+        margin:  -60px 0px;
+    }
+
+    #portraits {
+        background-color: white;
+        height: 3290px;
+    }
+
+    .portraits {
+        width: 700px;
+        position: absolute;
+        top: 6330px;
+        left: 410px;
+        margin: 0px 30px;
+        z-index: 2;
+    }
+    
+    .shape {
+        width: 1100px;
+        height: 1500px;
+        position: absolute;
+        top: 5980px;
+        left: 90px;
+        z-index: 1;
+    }
+
+    #portrait-boxes {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        position: relative;
+        top: 270px;
+        left: 220px;
+    }
+
+    .portrait-box3, .portrait-box2, .portrait-box1 {
+        width: 1000px;
+        margin:  0px -50px;
+    }
+
+    #randoms {
+        background-color: white;
+        height: 3300px;
+    }
+
+    .randoms {
+        width: 700px;
+        position: absolute;
+        top: 9650px;
+        left: 120px;
+        margin: 0px 30px;
+        z-index: 2;
+    }
+
+    .shape-2 {
+        width:1200px;
+        height: 1500px;
+        position: absolute;
+        top: 9230px;
+        left: 35px;
+        z-index: 1;
+    }
+    
+    #randoms-boxes {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        position: relative;
+        top: 270px;
+        left: 220px;
+    }
+
+    .random-box3, .random-box2, .random-box1 {
+        width: 1000px;
+        margin:  0px -50px;
+    }
+
+    #videography {
+        background-color: white;
+        height: 1500px;
+    }
+
+    .videoshots {
+    display: none;
+    }
+
+    .video-shotsv2{
+        display: flex;
+        position: relative;
+        top: -1640px;
+        left: 100px;
+    }
+
+    .video-box {
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        width: 1200px;
+        height: 1300px;
+        position: relative;
+        top: 300px;
+        left: 50px;
+    }
+
+    #lay-outs {
+        background-color: white;
+        height: 1700px;
+    }
+
+    .recentlys {
+        display: none;
+    }
+
+    .recentlayoutsv2{
+        display: flex;
+        position: relative;
+        top: -1300px;
+        left: 100px;
+    }
+
+
+    .recent-layouts1{
+        width: 900px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        top: 500px;
+        left: 200px;
+    }
+
+    .recent-layouts2{
+        width: 900px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        top: 600px;
+        left: 200px;
+    }
+
+    #quote {
+        background-color:white;
+        height: 1200px;
+    }
+
+    .quote {
+        width: 1000px;
+        height: 1200px;
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        top: -70px;
+        left: 155px;
+    }
+    
+    #quote p {
+        font-size: 40px;
+        display: flex;
+        position: relative;
+        top: -300px;
+        left: 370px;
+    }
+
+    #contact {
+        background-color: yellow;
+        height: 1000px;
+    }
+
+
+    .get-in-touch {
+        width: 900px;
+        display: flex;
+        position: relative;
+        top: 800px;
+        left: 20px;
+    }
+
+
+    .contactshape {
+        height: 1040px;
+        width: 1285px;
+        margin: 0 auto;
+        background-color: #ffd814;
+        position: relative;
+        top: -900px;
+        left: -10px;
+    }
+
+    #contact p {
+        font-size: 40px;
+        display: flex;
+        position: relative;
+        width: 1000px;
+        top: -650px;
+        left: 20px;
+        text-align: left;
+    }
+
+    #details .address, #details .mail, #details .phonenum {
+        display: flex;
+        position: relative;
+        top: -600px;
+        left: 300px;
+        margin: 60px 0px;
+    }
+
+    #contact-icons .address, #contact-icons .email, #contact-icons .phone {
+        width: 120px;
+        display: flex;
+        flex-direction: row-reverse;
+        position: relative;
+        top: -990px;
+        left: 130px;
+    }
+
+    .connectwithme {
+        width: 900px;
+        display: flex;
+        position: relative;
+        top: -1380px;
+        left: 400px ;
+    }
+
+    #connectwithme-links {
+        display: flex;
+        flex-direction: row-reverse;
+        position: relative;
+        top: -1700px;
+        left: 830px;
+        }
+    
+        .gmail-icon, .linkedin-icon, .instagram-icon, .facebook-icon {
+            width: 200px;
+            transition: transform 0.3s ease; 
+            }
+    
+    .rounded-square {
+            background-color: #19342D;
+            width: 370px;
+            height: 320px;
+            border-radius: 10%;
+            position: relative;
+            top: -2020px;
+            left: 150px;
+            z-index: 1;
+        }
+
+        .forfooter {
+            width: 320px;
+            position: relative;
+            top: -2300px;
+            left: 150px;
+            z-index: 2;
+        }
+    
+    
+    
+    
+
+    
+        
+
+}
+    
+    
+    
